@@ -3,7 +3,7 @@ const addition = document.querySelector(".increase");
 const subtract = document.querySelector(".decrease");
 const reset = document.querySelector(".restart");
 let number = 0;
-const maxNumber = 10;
+const maxNumber = 20;
 
 addition.addEventListener("click", () => {
   if (number < maxNumber) {
